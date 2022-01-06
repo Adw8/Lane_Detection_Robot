@@ -5,5 +5,7 @@ It also uses a motor driver (L293D) in order to control the dc motored wheels. T
 
 It sends this value to the Arduino, to which it is connected using I2C protocol, and the Arduino makes the robot move based on the steering angle, using an algorithm that calculated speed and direction of the robot.
 
+The Raspberry Pi is controlled remotely using either OBS or VNC software through either Wired connection or Wifi. 
+
 All of this is achieved in real time.
 
